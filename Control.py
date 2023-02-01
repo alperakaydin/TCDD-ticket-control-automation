@@ -60,8 +60,8 @@ class Control:
                             
                             info = f" {self.nereden} -> {self.nereye} \n {self.tarih} \n {emptyNumber -2} adet yer var ..."
                             print(info)
-                            sendUrl = "https://api.telegram.org/bot5329313401:AAEJvzBArLj3vfo7xvs7-xf0ioyv6vFPGVw/sendMessage"
-                            requests.post(url=sendUrl, data={"chat_id":"1099086328","text":info})
+                            sendUrl = "https://api.telegram.org/*************/sendMessage"
+                            requests.post(url=sendUrl, data={"chat_id":"**********","text":info})
                             
 
                 except:
