@@ -8,5 +8,5 @@ class Telegram:
     #def __init__(self, message):
     #    self.message = message
 def sendMessage(msg):
-    sendUrl = "https://api.telegram.org/bot7145550:659da193100cfd421ce6aedf1ef6ea79/sendMessage"
-    requests.post(url=sendUrl, data={"chat_id":"1099086328","text":"msg"})
+    sendUrl = "https://api.telegram.org/********:**********/sendMessage"
+    requests.post(url=sendUrl, data={"chat_id":"chat_id","text":"msg"})
